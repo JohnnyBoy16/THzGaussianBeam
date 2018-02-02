@@ -3,6 +3,21 @@ import pdb
 import numpy as np
 
 
+def gaussian_1d(x, a, mu, sigma):
+    """
+    1D Gaussian function
+    :param x: Location
+    :param a: Amplitude at center
+    :param mu: Center location
+    :param sigma: standard deviation
+    :return: Value of the function at the specified x location(s)
+    """
+
+    f = a * np.exp(-(x-mu)**2 / (2*sigma**2))
+
+    return f
+
+
 def gaussian_2d(data, a, x0, y0, std_x, std_y):
     """
     2D Gaussian function that can be used to curve fit or whenever a Gaussian
