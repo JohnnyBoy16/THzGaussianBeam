@@ -20,4 +20,8 @@ There are scans at the following z heights
 * -1.0 mm
 * -1.5 mm
 * -2.0 mm
-* -2.5 mm 
+* -2.5 mm
+
+Initial estimates suggest a standard deviation of 0.6188 amplitude about x
+and 0.65589 about y. If assuming a circular Gaussian profile their average
+gives a standard deviation of 0.63735 amplitude.
